@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 
 /**
@@ -25,7 +26,7 @@ public class Settings_Fragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private Object LinearLayout;
+
 
     public Settings_Fragment() {
         // Required empty public constructor
@@ -63,14 +64,41 @@ public class Settings_Fragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_settings_, container, false);
-        LinearLayout linearLayout_equalizer = (LinearLayout) v.findViewById(R.id.fragment_settings_ll_equalizer);
-        linearLayout_equalizer.setOnClickListener(new View.OnClickListener() {
+
+        LinearLayout linearLayout_Equalizer = (LinearLayout) v.findViewById(R.id.fr_settings_ll_equalizer);
+        Button button_VolDec = (Button) v.findViewById(R.id.fr_settings_btn_voldec);
+        Button button_VolInc = (Button) v.findViewById(R.id.fr_settings_btn_volinc);
+        Button button_Mute = (Button) v.findViewById(R.id.fr_settings_btn_mute);
+
+        linearLayout_Equalizer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), Activity_EqualizerSettings.class);
                 startActivity(intent);
             }
         });
+
+        button_VolDec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        button_VolInc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        button_Mute.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
 
         return v;
 

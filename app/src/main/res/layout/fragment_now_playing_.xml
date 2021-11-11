@@ -40,7 +40,7 @@
         android:textAppearance="@style/Text"></TextView>
 
     <TextView
-        android:id="@+id/fragment_now_playing_tv_songname"
+        android:id="@+id/fr_now_playing_tv_songname"
         android:layout_width="wrap_content"
         android:text="songe name"
         android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
         android:textAppearance="@style/Text1"></TextView>
 
     <TextView
-        android:id="@+id/fragment_now_playing_tv_album"
+        android:id="@+id/fr_now_playing_tv_album"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="450dp"
@@ -58,7 +58,7 @@
         android:textAppearance="@style/Text1"></TextView>
 
     <TextView
-        android:id="@+id/fragment_now_playing_tv_artist"
+        android:id="@+id/fr_now_playing_tv_artist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="450dp"
@@ -67,7 +67,7 @@
         android:textAppearance="@style/Text1"></TextView>
 
     <ImageButton
-        android:id="@+id/fragment_now_playing_ibtn_previous"
+        android:id="@+id/fr_now_playing_ib_previous"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="230dp"
@@ -75,7 +75,7 @@
         android:background="@drawable/ic_baseline_skip_previous_24"></ImageButton>
 
     <ImageButton
-        android:id="@+id/fragment_now_playing_ibtn_playpause"
+        android:id="@+id/fr_now_playing_ib_playpause"
         android:layout_width="wrap_content"
         android:layout_marginTop="230dp"
         android:layout_marginLeft="400dp"
@@ -83,7 +83,7 @@
         android:background="@drawable/ic_baseline_play_arrow_24"></ImageButton>
 
     <ImageButton
-        android:id="@+id/fragment_now_playing_ibtn_next"
+        android:id="@+id/fr_now_playing_ib_next"
         android:layout_width="wrap_content"
         android:layout_marginTop="230dp"
         android:layout_marginLeft="490dp"

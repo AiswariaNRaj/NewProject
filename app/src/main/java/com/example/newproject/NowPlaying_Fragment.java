@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +61,37 @@ public class NowPlaying_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_now_playing_, container, false);
+        View v = inflater.inflate(R.layout.fragment_now_playing_, container, false);
+
+        TextView textView_SongName = (TextView) v.findViewById(R.id.fr_now_playing_tv_songname);
+        TextView textView_Album = (TextView) v.findViewById(R.id.fr_now_playing_tv_album);
+        TextView textView_Artist = (TextView) v.findViewById(R.id.fr_now_playing_tv_artist);
+        ImageButton imageButton_Previous = (ImageButton) v.findViewById(R.id.fr_now_playing_ib_previous);
+        ImageButton imageButton_PlayPause = (ImageButton) v.findViewById(R.id.fr_now_playing_ib_playpause);
+        ImageButton imageButton_Next = (ImageButton) v.findViewById(R.id.fr_now_playing_ib_next);
+
+        imageButton_Previous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        imageButton_PlayPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        imageButton_Next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        return v;
+
     }
 }
