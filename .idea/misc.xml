@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_skip_next_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_skip_previous_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/activity_equalizer_settings.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_frag_settings.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_now_playing_.xml" value="0.22" />
